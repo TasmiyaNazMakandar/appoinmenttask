@@ -24,10 +24,6 @@ class CustomClass extends StatelessWidget {
 
         children: <Widget>[
 
-
-
-
-
           Container(
 
             padding: const EdgeInsets.all(5),
@@ -73,10 +69,7 @@ class CustomClass extends StatelessWidget {
                           child: ClipOval(
 
                             child: Image.network(
-
-                                "https://cdn.friendlystock.com/wp-content/uploads/2018/05/4-dog-doctor-cartoon-clipart-600x900.jpg"),
-
-                          ),
+                                "https://cdn.friendlystock.com/wp-content/uploads/2018/05/4-dog-doctor-cartoon-clipart-600x900.jpg"),),
 
                         ),
 
@@ -152,7 +145,7 @@ class CustomClass extends StatelessWidget {
 
                   // labelText: "Search",
 
-                    hintText: "Search Patients",
+                    hintText: "Search",
 
                     suffixIcon: Icon(Icons.search),
 
